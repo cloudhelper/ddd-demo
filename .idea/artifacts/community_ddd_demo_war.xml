@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="community-ddd-demo:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>community-ddd-demo</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="ddd-demo.war">
+      <element id="artifact" artifact-name="community-ddd-demo:war exploded" />
+    </root>
+  </artifact>
+</component>
