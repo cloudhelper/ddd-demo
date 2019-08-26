@@ -1,7 +1,68 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fca3350c-2671-4e7f-9be7-da4dfec95134" name="Default Changelist" comment="" />
+    <list default="true" id="fca3350c-2671-4e7f-9be7-da4dfec95134" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/doc/领域驱动设计.puml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/cloudhelper/ddd/demo/application/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/cloudhelper/ddd/demo/input/dubbo/PostDubboService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/cloudhelper/ddd/demo/input/dubbo/PostDubboServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/cloudhelper/ddd/demo/input/mq/UserPhoneChangedEventConsumer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dqdl/community/application/assembler/PostAssembler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/cloudhelper/ddd/demo/application/assembler/PostAssembler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dqdl/community/application/service/PostService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/cloudhelper/ddd/demo/application/service/PostService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dqdl/community/application/service/PostServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/cloudhelper/ddd/demo/application/service/PostServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dqdl/community/constant/CommonConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/cloudhelper/ddd/demo/input/ui/constant/CommonConstants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dqdl/community/constant/ReturnCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/cloudhelper/ddd/demo/input/ui/constant/ReturnCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dqdl/community/domain/model/post/Post.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/cloudhelper/ddd/demo/domain/model/post/Post.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dqdl/community/domain/model/post/PostStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/cloudhelper/ddd/demo/domain/model/post/PostStatus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dqdl/community/domain/model/post/PostTopInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/cloudhelper/ddd/demo/domain/model/post/PostTopInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dqdl/community/domain/model/topic/Topic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/cloudhelper/ddd/demo/domain/model/topic/Topic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dqdl/community/domain/model/topic/TopicPost.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/cloudhelper/ddd/demo/domain/model/topic/TopicPost.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dqdl/community/domain/model/user/PostAuthor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/cloudhelper/ddd/demo/domain/model/user/PostAuthor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dqdl/community/domain/model/user/PostReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/cloudhelper/ddd/demo/domain/model/user/PostReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dqdl/community/domain/model/user/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/cloudhelper/ddd/demo/domain/model/user/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dqdl/community/domain/repository/IPostRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/cloudhelper/ddd/demo/domain/repository/IPostRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dqdl/community/domain/service/contentfilter/AbstractContentFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/cloudhelper/ddd/demo/domain/service/contentfilter/AbstractContentFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dqdl/community/domain/service/contentfilter/AbstractTextContentFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/cloudhelper/ddd/demo/domain/service/contentfilter/AbstractTextContentFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dqdl/community/domain/service/contentfilter/ImageContentFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/cloudhelper/ddd/demo/domain/service/contentfilter/ImageContentFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dqdl/community/domain/service/contentfilter/LocalTextContentFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/cloudhelper/ddd/demo/domain/service/contentfilter/LocalTextContentFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dqdl/community/domain/service/contentfilter/PostMainBodyContentFilterChain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/cloudhelper/ddd/demo/domain/service/contentfilter/PostMainBodyContentFilterChain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dqdl/community/domain/service/contentfilter/PostTitleContentFilterChain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/cloudhelper/ddd/demo/domain/service/contentfilter/PostTitleContentFilterChain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dqdl/community/domain/service/contentfilter/RemoteTextContentFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/cloudhelper/ddd/demo/domain/service/contentfilter/RemoteTextContentFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dqdl/community/infrastructure/dao/entity/oracle/BaseEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/cloudhelper/ddd/demo/output/repository/oracle/dao/entity/oracle/BaseEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dqdl/community/infrastructure/dao/entity/oracle/PostEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/cloudhelper/ddd/demo/output/repository/oracle/dao/entity/oracle/PostEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dqdl/community/infrastructure/dao/oracle/PostMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/cloudhelper/ddd/demo/output/repository/oracle/dao/oracle/PostMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dqdl/community/infrastructure/exception/BusinessException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/cloudhelper/ddd/demo/output/exception/BusinessException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dqdl/community/infrastructure/exception/CommunicationException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/cloudhelper/ddd/demo/output/exception/CommunicationException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dqdl/community/infrastructure/exception/ExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/cloudhelper/ddd/demo/output/exception/ExceptionHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dqdl/community/infrastructure/exception/OutsideServiceException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/cloudhelper/ddd/demo/output/exception/OutsideServiceException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dqdl/community/infrastructure/exception/ValidationExceptionResovler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/cloudhelper/ddd/demo/output/exception/ValidationExceptionResovler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dqdl/community/infrastructure/repository/PostRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/cloudhelper/ddd/demo/output/repository/PostRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dqdl/community/infrastructure/repository/memory/PostMemoryRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/cloudhelper/ddd/demo/output/repository/memory/PostMemoryRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dqdl/community/infrastructure/repository/oracle/PostOracleRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/cloudhelper/ddd/demo/output/repository/oracle/PostOracleRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dqdl/community/infrastructure/repository/redis/PostRedisRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/cloudhelper/ddd/demo/output/repository/redis/PostRedisRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dqdl/community/infrastructure/repository/translator/PostRepositoryTranslator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/cloudhelper/ddd/demo/output/repository/translator/PostRepositoryTranslator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dqdl/community/infrastructure/util/ApplicationUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/cloudhelper/ddd/demo/output/util/ApplicationUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dqdl/community/ui/controller/BaseController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/cloudhelper/ddd/demo/input/ui/controller/BaseController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dqdl/community/ui/controller/PostController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/cloudhelper/ddd/demo/input/ui/controller/PostController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dqdl/community/ui/dto/base/RequestBody.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/cloudhelper/ddd/demo/input/ui/dto/base/RequestBody.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dqdl/community/ui/dto/base/RequestDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/cloudhelper/ddd/demo/input/ui/dto/base/RequestDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dqdl/community/ui/dto/base/ResponseBody.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/cloudhelper/ddd/demo/input/ui/dto/base/ResponseBody.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dqdl/community/ui/dto/base/ResponseDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/cloudhelper/ddd/demo/input/ui/dto/base/ResponseDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dqdl/community/ui/dto/base/UIDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/cloudhelper/ddd/demo/input/ui/dto/base/UIDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dqdl/community/ui/dto/post/DeletePostReqBody.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/cloudhelper/ddd/demo/input/ui/dto/post/DeletePostReqBody.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dqdl/community/ui/dto/post/DeletePostRespBody.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/cloudhelper/ddd/demo/input/ui/dto/post/DeletePostRespBody.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dqdl/community/ui/dto/post/PostingReqBody.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/cloudhelper/ddd/demo/input/ui/dto/post/PostingReqBody.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dqdl/community/ui/dto/post/PostingRespBody.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/cloudhelper/ddd/demo/input/ui/dto/post/PostingRespBody.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dqdl/community/ui/dto/post/QueryPostDetailReqBody.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/cloudhelper/ddd/demo/input/ui/dto/post/QueryPostDetailReqBody.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dqdl/community/ui/dto/post/QueryPostDetailRespBody.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/cloudhelper/ddd/demo/input/ui/dto/post/QueryPostDetailRespBody.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/spring.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/spring.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/dqdl/community/domain/model/post/PostTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/cloudhelper/ddd/demo/domain/model/post/PostTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/dqdl/community/domain/model/user/PostAuthorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/cloudhelper/ddd/demo/domain/model/user/PostAuthorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/dqdl/community/domain/model/user/PostReaderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/cloudhelper/ddd/demo/domain/model/user/PostReaderTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/dqdl/community/domain/model/user/UserTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/cloudhelper/ddd/demo/domain/model/user/UserTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/dqdl/community/domain/service/contentfilter/LocalTextContentFilterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/cloudhelper/ddd/demo/domain/service/contentfilter/LocalTextContentFilterTest.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -11,21 +72,124 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="DefaultGradleProjectSettings">
-    <option name="testRunner" value="GRADLE" />
-    <option name="delegatedBuild" value="true" />
+    <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/cloudhelper/ddd/demo/input/ui/dto/base/ResponseDto.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="281">
-              <caret line="174" column="25" selection-start-line="174" selection-start-column="25" selection-end-line="174" selection-end-column="25" />
+            <state relative-caret-position="75">
+              <caret line="5" column="3" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/cloudhelper/ddd/demo/input/ui/dto/base/UIDto.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="3" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/cloudhelper/ddd/demo/input/ui/dto/post/DeletePostReqBody.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="8" column="3" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/cloudhelper/ddd/demo/input/ui/dto/post/DeletePostRespBody.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="3" lean-forward="true" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/cloudhelper/ddd/demo/input/ui/dto/post/PostingReqBody.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="13" column="26" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/cloudhelper/ddd/demo/input/ui/dto/post/PostingRespBody.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="3" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/cloudhelper/ddd/demo/input/ui/dto/post/QueryPostDetailReqBody.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="9" column="3" lean-forward="true" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/cloudhelper/ddd/demo/input/ui/dto/post/QueryPostDetailRespBody.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="3" lean-forward="true" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/cloudhelper/ddd/demo/output/exception/BusinessException.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="2" lean-forward="true" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/cloudhelper/ddd/demo/output/exception/CommunicationException.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="UML Sequence" />
+        <option value="Class" />
+        <option value="Interface" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>@author daoqidelv</find>
+      <find>daoqidelv</find>
+    </findStrings>
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$/src/main</dir>
+      <dir>$PROJECT_DIR$/src/main/java</dir>
+      <dir>$PROJECT_DIR$/src/main/java/org/cloudhelper/ddd/demo`</dir>
+    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -34,12 +198,56 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/src/main/java/org/cloudhelper/ddd/demo/infrastructure/util/ApplicationUtil.java" />
+        <option value="$PROJECT_DIR$/doc/领域驱动设计.puml" />
+        <option value="$PROJECT_DIR$/src/main/java/org/cloudhelper/ddd/demo/ui/constant/CommonConstants.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/cloudhelper/ddd/demo/ui/mq/UserPhoneChangedEventConsumer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/cloudhelper/ddd/demo/mq/UserPhoneChangedEventConsumer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/cloudhelper/ddd/demo/input/mq/UserPhoneChangedEventConsumer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/cloudhelper/ddd/demo/input/dubbo/PostDubboServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/cloudhelper/ddd/demo/application/assembler/PostAssembler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/cloudhelper/ddd/demo/application/service/PostService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/cloudhelper/ddd/demo/application/service/PostServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/cloudhelper/ddd/demo/domain/model/post/Post.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/cloudhelper/ddd/demo/domain/model/post/PostStatus.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/cloudhelper/ddd/demo/domain/model/post/PostTopInfo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/cloudhelper/ddd/demo/domain/model/topic/Topic.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/cloudhelper/ddd/demo/domain/model/topic/TopicPost.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/cloudhelper/ddd/demo/domain/model/user/PostAuthor.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/cloudhelper/ddd/demo/domain/model/user/PostReader.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/cloudhelper/ddd/demo/domain/model/user/User.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/cloudhelper/ddd/demo/domain/repository/IPostRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/cloudhelper/ddd/demo/domain/service/contentfilter/AbstractContentFilter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/cloudhelper/ddd/demo/domain/service/contentfilter/AbstractTextContentFilter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/cloudhelper/ddd/demo/domain/service/contentfilter/ImageContentFilter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/cloudhelper/ddd/demo/domain/service/contentfilter/LocalTextContentFilter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/cloudhelper/ddd/demo/domain/service/contentfilter/PostMainBodyContentFilterChain.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/cloudhelper/ddd/demo/domain/service/contentfilter/PostTitleContentFilterChain.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/cloudhelper/ddd/demo/domain/service/contentfilter/RemoteTextContentFilter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/cloudhelper/ddd/demo/input/ui/constant/CommonConstants.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/cloudhelper/ddd/demo/input/ui/constant/ReturnCode.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/cloudhelper/ddd/demo/input/ui/controller/BaseController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/cloudhelper/ddd/demo/input/ui/controller/PostController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/cloudhelper/ddd/demo/input/ui/dto/base/RequestBody.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/cloudhelper/ddd/demo/input/ui/dto/base/RequestDto.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/cloudhelper/ddd/demo/input/ui/dto/base/ResponseBody.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/cloudhelper/ddd/demo/input/ui/dto/base/ResponseDto.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/cloudhelper/ddd/demo/input/ui/dto/base/UIDto.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/cloudhelper/ddd/demo/input/ui/dto/post/DeletePostReqBody.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/cloudhelper/ddd/demo/input/ui/dto/post/DeletePostRespBody.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/cloudhelper/ddd/demo/input/ui/dto/post/PostingReqBody.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/cloudhelper/ddd/demo/input/ui/dto/post/PostingRespBody.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/cloudhelper/ddd/demo/input/ui/dto/post/QueryPostDetailReqBody.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/cloudhelper/ddd/demo/input/ui/dto/post/QueryPostDetailRespBody.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/cloudhelper/ddd/demo/output/exception/BusinessException.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="3" />
-    <option name="y" value="77" />
+    <option name="x" value="14" />
+    <option name="y" value="23" />
     <option name="width" value="1400" />
     <option name="height" value="776" />
   </component>
@@ -58,6 +266,46 @@
               <item name="community-ddd-demo" type="b2602c69:ProjectViewProjectNode" />
               <item name="ddd-demo" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="community-ddd-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ddd-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="doc" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="community-ddd-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ddd-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="community-ddd-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ddd-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="community-ddd-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ddd-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="community-ddd-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ddd-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="community-ddd-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ddd-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="output" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -65,11 +313,26 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultPlantUmlFileTemplate" value="UML Sequence" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/doc" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="org.cloudhelper.ddd.demo" />
+      <recent name="org.cloudhelper.ddd.demo.application" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.cloudhelper.ddd.demo.input.dubbo" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/doc" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -93,57 +356,662 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1566745452356</updated>
-      <workItem from="1566745458254" duration="251000" />
+      <workItem from="1566745458254" duration="5831000" />
+      <workItem from="1566838992994" duration="5104000" />
     </task>
+    <task id="LOCAL-00001" summary="first">
+      <created>1566745932486</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1566745932486</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="251000" />
+    <option name="totallyTimeSpent" value="10935000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="3" y="77" width="1400" height="776" extended-state="0" />
+    <frame x="14" y="23" width="1400" height="776" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Designer" />
-      <window_info id="Project Explorer" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info id="Job Explorer" />
-      <window_info id="Web" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2496318" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2113402" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Spring" />
-      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.32894737" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Java Enterprise" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Console" />
-      <window_info anchor="bottom" id="LuaCheck" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Project Explorer" order="3" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info id="Job Explorer" order="5" />
+      <window_info id="Web" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Dependency Viewer" weight="0.32894737" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32894737" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Maven" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Bean Validation" />
+      <window_info anchor="bottom" id="Console" order="7" />
+      <window_info anchor="bottom" id="Spring" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32894737" />
+      <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Run with VisualVM" order="12" />
+      <window_info anchor="bottom" id="Java Enterprise" order="13" />
+      <window_info anchor="bottom" id="Database Changes" order="14" />
+      <window_info anchor="bottom" id="Debug with VisualVM" order="15" />
+      <window_info anchor="bottom" id="Version Control" order="16" />
+      <window_info anchor="bottom" id="LuaCheck" order="17" />
+      <window_info anchor="right" id="PlantUML" weight="0.3298969" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Palette&#9;" order="5" />
+      <window_info anchor="right" id="Bean Validation" order="6" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="first" />
+    <option name="LAST_COMMIT_MESSAGE" value="first" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/cloudhelper/ddd/demo/output/repository/oracle/dao/entity/oracle/PostEntity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="174" column="25" selection-start-line="174" selection-start-column="25" selection-end-line="174" selection-end-column="25" />
+        <state relative-caret-position="165">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/cloudhelper/ddd/demo/output/repository/oracle/PostOracleRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="25" column="18" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/cloudhelper/ddd/demo/output/repository/oracle/dao/oracle/PostMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/cloudhelper/ddd/demo/output/repository/memory/PostMemoryRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="17" column="55" selection-start-line="17" selection-start-column="55" selection-end-line="17" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/cloudhelper/ddd/demo/output/repository/translator/PostRepositoryTranslator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/cloudhelper/ddd/demo/output/repository/redis/PostRedisRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JavaScript-modules-diagram//Users/haochengyang/IdeaProjects/ddd-demo/src/main/java/org/cloudhelper/ddd/demo/application;/Users/haochengyang/IdeaProjects/ddd-demo/src/main/java/org/cloudhelper/ddd/demo/domain;/Users/haochengyang/IdeaProjects/ddd-demo/src/main/java/org/cloudhelper/ddd/demo/input;/Users/haochengyang/IdeaProjects/ddd-demo/src/main/java/org/cloudhelper/ddd/demo/output;">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JavaScript-modules-diagram</ID>
+          <OriginalElement>$PROJECT_DIR$/src/main/java/org/cloudhelper/ddd/demo/application;/Users/haochengyang/IdeaProjects/ddd-demo/src/main/java/org/cloudhelper/ddd/demo/domain;/Users/haochengyang/IdeaProjects/ddd-demo/src/main/java/org/cloudhelper/ddd/demo/input;/Users/haochengyang/IdeaProjects/ddd-demo/src/main/java/org/cloudhelper/ddd/demo/output;</OriginalElement>
+          <nodes />
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="535.5" y="316.5" />
+          <SelectedNodes />
+          <Categories>
+            <Category>All</Category>
+          </Categories>
+          <VISIBILITY>Details</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JavaScript-modules-diagram//Users/haochengyang/IdeaProjects/ddd-demo/src/main/java/org/cloudhelper/ddd/demo;/Users/haochengyang/IdeaProjects/ddd-demo/src/main/java/org/cloudhelper/ddd/demo/application;/Users/haochengyang/IdeaProjects/ddd-demo/src/main/java/org/cloudhelper/ddd/demo/domain;/Users/haochengyang/IdeaProjects/ddd-demo/src/main/java/org/cloudhelper/ddd/demo/input;/Users/haochengyang/IdeaProjects/ddd-demo/src/main/java/org/cloudhelper/ddd/demo/output;">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JavaScript-modules-diagram</ID>
+          <OriginalElement>$PROJECT_DIR$/src/main/java/org/cloudhelper/ddd/demo;/Users/haochengyang/IdeaProjects/ddd-demo/src/main/java/org/cloudhelper/ddd/demo/application;/Users/haochengyang/IdeaProjects/ddd-demo/src/main/java/org/cloudhelper/ddd/demo/domain;/Users/haochengyang/IdeaProjects/ddd-demo/src/main/java/org/cloudhelper/ddd/demo/input;/Users/haochengyang/IdeaProjects/ddd-demo/src/main/java/org/cloudhelper/ddd/demo/output;</OriginalElement>
+          <nodes />
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="535.5" y="316.5" />
+          <SelectedNodes />
+          <Categories>
+            <Category>All</Category>
+          </Categories>
+          <VISIBILITY>Details</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/cloudhelper/ddd/demo/input/dubbo/PostDubboService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="33" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/org.cloudhelper.ddd.demo">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>org.cloudhelper.ddd.demo</OriginalElement>
+          <nodes>
+            <node x="0.0" y="142.0">org.cloudhelper.ddd.demo.domain</node>
+            <node x="0.0" y="71.0">org.cloudhelper.ddd.demo.application</node>
+            <node x="0.0" y="0.0">org.cloudhelper.ddd.demo.infrastructure</node>
+            <node x="0.0" y="213.0">org.cloudhelper.ddd.demo.input</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.1" x="-187.13636363636365" y="107.18181818181816" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JavaScript-modules-diagram//Users/haochengyang/IdeaProjects/ddd-demo/src/main/java/org/cloudhelper/ddd/demo/application;/Users/haochengyang/IdeaProjects/ddd-demo/src/main/java/org/cloudhelper/ddd/demo/domain;/Users/haochengyang/IdeaProjects/ddd-demo/src/main/java/org/cloudhelper/ddd/demo/infrastructure;/Users/haochengyang/IdeaProjects/ddd-demo/src/main/java/org/cloudhelper/ddd/demo/input;">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JavaScript-modules-diagram</ID>
+          <OriginalElement>$PROJECT_DIR$/src/main/java/org/cloudhelper/ddd/demo/application;/Users/haochengyang/IdeaProjects/ddd-demo/src/main/java/org/cloudhelper/ddd/demo/domain;/Users/haochengyang/IdeaProjects/ddd-demo/src/main/java/org/cloudhelper/ddd/demo/infrastructure;/Users/haochengyang/IdeaProjects/ddd-demo/src/main/java/org/cloudhelper/ddd/demo/input;</OriginalElement>
+          <nodes />
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="240.0" y="240.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>All</Category>
+          </Categories>
+          <VISIBILITY>Details</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/cloudhelper/ddd/demo/input/dubbo/PostDubboServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="35" selection-start-line="6" selection-start-column="35" selection-end-line="6" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/cloudhelper/ddd/demo/output/repository/PostRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="13" column="56" lean-forward="true" selection-start-line="13" selection-start-column="56" selection-end-line="13" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/org.cloudhelper.ddd.demo.input.dubbo.PostDubboService">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>org.cloudhelper.ddd.demo.input.dubbo.PostDubboService</OriginalElement>
+          <nodes>
+            <node x="66.76074872097576" y="454.0">org.cloudhelper.ddd.demo.domain.model.user.PostReaderTest</node>
+            <node x="424.35416666666663" y="454.0">org.cloudhelper.ddd.demo.application.service.PostServiceImpl</node>
+            <node x="508.02329846079857" y="338.0">org.cloudhelper.ddd.demo.domain.model.user.PostAuthorTest</node>
+            <node x="61.266430539157625" y="338.0">org.cloudhelper.ddd.demo.domain.model.user.PostReader</node>
+            <node x="607.9791666666667" y="454.0">org.cloudhelper.ddd.demo.input.mq.UserPhoneChangedEventConsumer</node>
+            <node x="342.905242905243" y="242.0">org.cloudhelper.ddd.demo.domain.model.post.Post</node>
+            <node x="876.9791666666667" y="454.0">org.cloudhelper.ddd.demo.input.ui.controller.PostController</node>
+            <node x="215.92546678910304" y="106.0">org.cloudhelper.ddd.demo.domain.model.topic.TopicPost</node>
+            <node x="1101.4791666666667" y="338.0">org.cloudhelper.ddd.demo.input.dubbo.PostDubboService</node>
+            <node x="0.0" y="106.0">org.cloudhelper.ddd.demo.domain.model.user.UserTest</node>
+            <node x="1040.9791666666667" y="454.0">org.cloudhelper.ddd.demo.input.dubbo.PostDubboServiceImpl</node>
+            <node x="242.13380012243636" y="454.0">org.cloudhelper.ddd.demo.output.repository.PostRepository</node>
+            <node x="547.695707070707" y="106.0">org.cloudhelper.ddd.demo.domain.model.user.PostAuthor</node>
+            <node x="202.09274290524303" y="242.0">org.cloudhelper.ddd.demo.domain.model.topic.Topic</node>
+            <node x="729.6988581704491" y="338.0">org.cloudhelper.ddd.demo.application.service.PostService</node>
+            <node x="344.92546678910304" y="106.0">org.cloudhelper.ddd.demo.domain.model.post.PostStatus</node>
+            <node x="88.13948194061823" y="0.0">org.cloudhelper.ddd.demo.domain.model.user.User</node>
+            <node x="281.63380012243636" y="338.0">org.cloudhelper.ddd.demo.domain.repository.IPostRepository</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="org.cloudhelper.ddd.demo.domain.model.post.Post" target="org.cloudhelper.ddd.demo.domain.model.topic.TopicPost">
+              <point x="-13.454545454545439" y="-13.0" />
+              <point x="366.4506974506976" y="182.0" />
+              <point x="315.84213345576967" y="182.0" />
+              <point x="45.41666666666663" y="13.0" />
+            </edge>
+            <edge source="org.cloudhelper.ddd.demo.input.dubbo.PostDubboServiceImpl" target="org.cloudhelper.ddd.demo.application.service.PostService">
+              <point x="-46.5" y="-13.0" />
+              <point x="1087.4791666666667" y="424.0" />
+              <point x="837.3238581704491" y="424.0" />
+              <point x="46.125" y="13.0" />
+            </edge>
+            <edge source="org.cloudhelper.ddd.demo.application.service.PostServiceImpl" target="org.cloudhelper.ddd.demo.domain.repository.IPostRepository">
+              <point x="-21.571428571428555" y="-13.0" />
+              <point x="478.2827380952381" y="394.0" />
+              <point x="407.4671334557697" y="394.0" />
+              <point x="50.33333333333337" y="13.0" />
+            </edge>
+            <edge source="org.cloudhelper.ddd.demo.domain.model.user.PostReader" target="org.cloudhelper.ddd.demo.domain.model.user.User">
+              <point x="-29.0" y="-13.0" />
+              <point x="90.26643053915762" y="318.0" />
+              <point x="112.5" y="318.0" />
+              <point x="112.5" y="76.0" />
+              <point x="125.13948194061823" y="76.0" />
+              <point x="0.0" y="13.0" />
+            </edge>
+            <edge source="org.cloudhelper.ddd.demo.application.service.PostServiceImpl" target="org.cloudhelper.ddd.demo.domain.model.user.PostAuthor">
+              <point x="43.14285714285717" y="-13.0" />
+              <point x="542.9970238095239" y="414.0" />
+              <point x="675.8541666666666" y="414.0" />
+              <point x="675.8541666666666" y="212.0" />
+              <point x="657.2512626262626" y="212.0" />
+              <point x="51.55555555555554" y="13.0" />
+            </edge>
+            <edge source="org.cloudhelper.ddd.demo.domain.model.user.PostAuthorTest" target="org.cloudhelper.ddd.demo.domain.model.user.PostAuthor">
+              <point x="36.0" y="-13.0" />
+              <point x="616.0232984607985" y="318.0" />
+              <point x="605.3541666666666" y="318.0" />
+              <point x="605.3541666666666" y="212.0" />
+              <point x="618.584595959596" y="212.0" />
+              <point x="12.888888888888857" y="13.0" />
+            </edge>
+            <edge source="org.cloudhelper.ddd.demo.domain.model.user.PostReaderTest" target="org.cloudhelper.ddd.demo.domain.model.user.PostReader">
+              <point x="-18.0" y="-13.0" />
+              <point x="120.76074872097576" y="434.0" />
+              <point x="104.76643053915762" y="434.0" />
+              <point x="-14.5" y="13.0" />
+            </edge>
+            <edge source="org.cloudhelper.ddd.demo.application.service.PostServiceImpl" target="org.cloudhelper.ddd.demo.domain.model.post.Post">
+              <point x="0.0" y="-13.0" />
+              <point x="499.85416666666663" y="384.0" />
+              <point x="464.88380012243636" y="384.0" />
+              <point x="464.88380012243636" y="318.0" />
+              <point x="384.530242905243" y="318.0" />
+              <point x="4.625" y="13.0" />
+            </edge>
+            <edge source="org.cloudhelper.ddd.demo.domain.model.post.Post" target="org.cloudhelper.ddd.demo.domain.model.user.PostAuthor">
+              <point x="6.727272727272748" y="-13.0" />
+              <point x="386.6325156325158" y="162.0" />
+              <point x="554.1401515151515" y="162.0" />
+              <point x="-51.55555555555554" y="13.0" />
+            </edge>
+            <edge source="org.cloudhelper.ddd.demo.domain.model.user.PostAuthor" target="org.cloudhelper.ddd.demo.domain.model.user.User">
+              <point x="-29.0" y="-13.0" />
+              <point x="576.695707070707" y="86.0" />
+              <point x="146.2823390834754" y="86.0" />
+              <point x="21.142857142857167" y="13.0" />
+            </edge>
+            <edge source="org.cloudhelper.ddd.demo.domain.model.user.UserTest" target="org.cloudhelper.ddd.demo.domain.model.user.User">
+              <point x="-34.0" y="-13.0" />
+              <point x="17.0" y="46.0" />
+              <point x="93.4251962263325" y="46.0" />
+              <point x="-31.714285714285722" y="13.0" />
+            </edge>
+            <edge source="org.cloudhelper.ddd.demo.domain.model.user.PostAuthor" target="org.cloudhelper.ddd.demo.domain.model.post.Post">
+              <point x="0.0" y="13.0" />
+              <point x="605.695707070707" y="202.0" />
+              <point x="413.54160654160665" y="202.0" />
+              <point x="33.636363636363626" y="-13.0" />
+            </edge>
+            <edge source="org.cloudhelper.ddd.demo.input.mq.UserPhoneChangedEventConsumer" target="org.cloudhelper.ddd.demo.application.service.PostService">
+              <point x="0.0" y="-13.0" />
+              <point x="732.4791666666667" y="434.0" />
+              <point x="775.8238581704491" y="434.0" />
+              <point x="-15.375" y="13.0" />
+            </edge>
+            <edge source="org.cloudhelper.ddd.demo.domain.model.user.PostAuthorTest" target="org.cloudhelper.ddd.demo.domain.model.post.Post">
+              <point x="-12.0" y="-13.0" />
+              <point x="568.0232984607985" y="288.0" />
+              <point x="412.280242905243" y="288.0" />
+              <point x="32.375" y="13.0" />
+            </edge>
+            <edge source="org.cloudhelper.ddd.demo.application.service.PostServiceImpl" target="org.cloudhelper.ddd.demo.domain.model.user.PostReader">
+              <point x="-64.7142857142857" y="-13.0" />
+              <point x="435.13988095238096" y="414.0" />
+              <point x="133.76643053915762" y="414.0" />
+              <point x="14.5" y="13.0" />
+            </edge>
+            <edge source="org.cloudhelper.ddd.demo.domain.repository.IPostRepository" target="org.cloudhelper.ddd.demo.domain.model.post.Post">
+              <point x="0.0" y="-13.0" />
+              <point x="357.13380012243636" y="318.0" />
+              <point x="375.280242905243" y="318.0" />
+              <point x="-4.625" y="13.0" />
+            </edge>
+            <edge source="org.cloudhelper.ddd.demo.output.repository.PostRepository" target="org.cloudhelper.ddd.demo.domain.repository.IPostRepository">
+              <point x="48.0" y="-13.0" />
+              <point x="362.13380012243636" y="434.0" />
+              <point x="357.13380012243636" y="434.0" />
+              <point x="0.0" y="13.0" />
+            </edge>
+            <edge source="org.cloudhelper.ddd.demo.domain.model.topic.Topic" target="org.cloudhelper.ddd.demo.domain.model.topic.TopicPost">
+              <point x="20.25" y="-13.0" />
+              <point x="262.842742905243" y="222.0" />
+              <point x="243.17546678910304" y="222.0" />
+              <point x="-27.25" y="13.0" />
+            </edge>
+            <edge source="org.cloudhelper.ddd.demo.output.repository.PostRepository" target="org.cloudhelper.ddd.demo.domain.model.post.Post">
+              <point x="-48.0" y="-13.0" />
+              <point x="266.13380012243636" y="434.0" />
+              <point x="271.13380012243636" y="434.0" />
+              <point x="271.13380012243636" y="308.0" />
+              <point x="366.030242905243" y="308.0" />
+              <point x="-13.875" y="13.0" />
+            </edge>
+            <edge source="org.cloudhelper.ddd.demo.domain.model.user.PostAuthorTest" target="org.cloudhelper.ddd.demo.domain.model.post.PostStatus">
+              <point x="12.0" y="-13.0" />
+              <point x="592.0232984607985" y="152.0" />
+              <point x="441.59213345576967" y="152.0" />
+              <point x="38.66666666666663" y="13.0" />
+            </edge>
+            <edge source="org.cloudhelper.ddd.demo.application.service.PostServiceImpl" target="org.cloudhelper.ddd.demo.application.service.PostService">
+              <point x="64.71428571428572" y="-13.0" />
+              <point x="564.5684523809524" y="424.0" />
+              <point x="745.0738581704491" y="424.0" />
+              <point x="-46.125" y="13.0" />
+            </edge>
+            <edge source="org.cloudhelper.ddd.demo.input.dubbo.PostDubboServiceImpl" target="org.cloudhelper.ddd.demo.input.dubbo.PostDubboService">
+              <point x="46.5" y="-13.0" />
+              <point x="0.0" y="13.0" />
+            </edge>
+            <edge source="org.cloudhelper.ddd.demo.domain.model.post.Post" target="org.cloudhelper.ddd.demo.domain.model.post.PostStatus">
+              <point x="-6.727272727272748" y="-13.0" />
+              <point x="373.1779701779703" y="172.0" />
+              <point x="364.25880012243636" y="172.0" />
+              <point x="-38.666666666666686" y="13.0" />
+            </edge>
+            <edge source="org.cloudhelper.ddd.demo.domain.model.user.PostReaderTest" target="org.cloudhelper.ddd.demo.domain.model.post.Post">
+              <point x="18.0" y="-13.0" />
+              <point x="156.76074872097576" y="424.0" />
+              <point x="204.13380012243636" y="424.0" />
+              <point x="204.13380012243636" y="288.0" />
+              <point x="347.530242905243" y="288.0" />
+              <point x="-32.375" y="13.0" />
+            </edge>
+            <edge source="org.cloudhelper.ddd.demo.input.ui.controller.PostController" target="org.cloudhelper.ddd.demo.application.service.PostService">
+              <point x="0.0" y="-13.0" />
+              <point x="948.9791666666667" y="434.0" />
+              <point x="806.5738581704491" y="434.0" />
+              <point x="15.375" y="13.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="0.8354134165366615" x="267.2829131652661" y="115.42857142857144" />
+          <SelectedNodes>
+            <node>org.cloudhelper.ddd.demo.domain.model.user.PostAuthor</node>
+          </SelectedNodes>
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/cloudhelper/ddd/demo/application/assembler/PostAssembler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="16" column="3" lean-forward="true" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/cloudhelper/ddd/demo/application/service/PostService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="14" column="3" lean-forward="true" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/cloudhelper/ddd/demo/application/service/PostServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="21" column="3" lean-forward="true" selection-start-line="21" selection-start-column="3" selection-end-line="21" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/cloudhelper/ddd/demo/domain/model/post/Post.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="23" column="2" lean-forward="true" selection-start-line="23" selection-start-column="2" selection-end-line="23" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/cloudhelper/ddd/demo/domain/model/post/PostStatus.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="8" column="3" lean-forward="true" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/cloudhelper/ddd/demo/domain/model/post/PostTopInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="2" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/cloudhelper/ddd/demo/domain/model/topic/Topic.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="8" column="2" lean-forward="true" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/cloudhelper/ddd/demo/domain/model/topic/TopicPost.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="7" column="2" lean-forward="true" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/cloudhelper/ddd/demo/domain/model/user/PostAuthor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="10" column="2" lean-forward="true" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/cloudhelper/ddd/demo/domain/model/user/PostReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="3" lean-forward="true" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/cloudhelper/ddd/demo/domain/model/user/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="47">
+          <caret line="7" column="3" lean-forward="true" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/cloudhelper/ddd/demo/domain/repository/IPostRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="3" lean-forward="true" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/cloudhelper/ddd/demo/domain/service/contentfilter/AbstractContentFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="7" column="3" lean-forward="true" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/cloudhelper/ddd/demo/domain/service/contentfilter/AbstractTextContentFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="7" column="3" lean-forward="true" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/cloudhelper/ddd/demo/domain/service/contentfilter/ImageContentFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="7" column="3" lean-forward="true" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/cloudhelper/ddd/demo/domain/service/contentfilter/LocalTextContentFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="11" column="3" lean-forward="true" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/cloudhelper/ddd/demo/domain/service/contentfilter/PostMainBodyContentFilterChain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="11" column="3" lean-forward="true" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/cloudhelper/ddd/demo/domain/service/contentfilter/PostTitleContentFilterChain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="11" column="3" lean-forward="true" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/cloudhelper/ddd/demo/domain/service/contentfilter/RemoteTextContentFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="7" column="3" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/cloudhelper/ddd/demo/input/mq/UserPhoneChangedEventConsumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="76" selection-start-line="7" selection-start-column="76" selection-end-line="7" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/cloudhelper/ddd/demo/input/ui/constant/CommonConstants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="6" column="2" lean-forward="true" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/cloudhelper/ddd/demo/input/ui/constant/ReturnCode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="6" column="2" lean-forward="true" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/cloudhelper/ddd/demo/input/ui/controller/BaseController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="31">
+          <caret line="14" column="2" selection-start-line="14" selection-start-column="2" selection-end-line="14" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/cloudhelper/ddd/demo/input/ui/controller/PostController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="21" column="2" selection-start-line="21" selection-start-column="2" selection-end-line="21" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/cloudhelper/ddd/demo/input/ui/dto/base/RequestBody.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="3" lean-forward="true" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/cloudhelper/ddd/demo/input/ui/dto/base/RequestDto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="13" lean-forward="true" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/cloudhelper/ddd/demo/input/ui/dto/base/ResponseBody.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="3" lean-forward="true" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/cloudhelper/ddd/demo/input/ui/dto/base/ResponseDto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="3" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/cloudhelper/ddd/demo/input/ui/dto/base/UIDto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="3" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/cloudhelper/ddd/demo/input/ui/dto/post/DeletePostReqBody.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="8" column="3" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/cloudhelper/ddd/demo/input/ui/dto/post/DeletePostRespBody.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="3" lean-forward="true" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/cloudhelper/ddd/demo/input/ui/dto/post/PostingRespBody.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="3" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/cloudhelper/ddd/demo/input/ui/dto/post/QueryPostDetailReqBody.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="9" column="3" lean-forward="true" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/cloudhelper/ddd/demo/input/ui/dto/post/QueryPostDetailRespBody.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="3" lean-forward="true" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/cloudhelper/ddd/demo/output/exception/BusinessException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="2" lean-forward="true" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/cloudhelper/ddd/demo/output/exception/CommunicationException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/cloudhelper/ddd/demo/input/ui/dto/post/PostingReqBody.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="13" column="26" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
         </state>
       </provider>
     </entry>
