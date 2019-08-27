@@ -7,9 +7,6 @@ import org.cloudhelper.ddd.demo.domain.model.post.Post;
 import org.junit.Before;
 
 /**
- * PostReader unit test class
- *
- * @createdate 2017年10月15日
  */
 public class PostReaderTest {
 

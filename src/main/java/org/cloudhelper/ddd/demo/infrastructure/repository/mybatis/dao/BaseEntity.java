@@ -1,4 +1,4 @@
-package org.cloudhelper.ddd.demo.infrastructure.repository.oracle.dao.entity.oracle;
+package org.cloudhelper.ddd.demo.infrastructure.repository.mybatis.dao;
 
 import java.sql.Timestamp;
 

@@ -11,13 +11,8 @@ import org.cloudhelper.ddd.demo.domain.repository.IPostRepository;
  */
 @Repository
 public class PostRepository implements IPostRepository {
-
-	@Autowired
-	private IPostRepository postMemoryRepository;
-
-	@Autowired
+	private IPostRepository postJdbcRepository;
 	private IPostRepository postRedisRepository;
-
 	@Override
 	public Post query(long postId) {
 		/**
@@ -28,7 +23,7 @@ public class PostRepository implements IPostRepository {
 		Post post = postRedisRepository.query(postId);
 		if(post == null) {
 			//2.1、缓存为空，查询主存
-			post = postMemoryRepository.query(postId);
+			post = postJdbcRepository.query(postId);
 			//2.2、将主存中查询到的结果缓存
 			postRedisRepository.save(post);
 		}
@@ -40,8 +35,8 @@ public class PostRepository implements IPostRepository {
 	public int save(Post post) {
 		//1、写入缓存
 		postRedisRepository.save(post);
-		//2、写入主存
-		return postMemoryRepository.save(post);
+		//2、写入关系型数据库
+		return postJdbcRepository.save(post);
 	}
 
 	@Override
@@ -49,7 +44,7 @@ public class PostRepository implements IPostRepository {
 		//1、删除缓存
 		postRedisRepository.delete(post);
 		//2、删除主存
-		return postMemoryRepository.delete(post);
+		return postJdbcRepository.delete(post);
 	}
 
 }

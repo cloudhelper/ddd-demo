@@ -10,9 +10,7 @@ import org.junit.Before;
 import org.junit.Test;
 
 /**
- * @author DAOQIDELV
- * @CreateDate 2017年9月17日
- *
+ * 内容过滤单元测试
  */
 public class LocalTextContentFilterTest {
 

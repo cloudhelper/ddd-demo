@@ -4,7 +4,7 @@ import org.springframework.stereotype.Component;
 
 import org.cloudhelper.ddd.demo.domain.model.post.Post;
 import org.cloudhelper.ddd.demo.domain.model.post.PostStatus;
-import org.cloudhelper.ddd.demo.infrastructure.repository.oracle.dao.entity.oracle.PostEntity;
+import org.cloudhelper.ddd.demo.infrastructure.repository.mybatis.dao.PostEntity;
 
 /**
  * 将不同repository返回的entity翻译层domain层认识的model对象

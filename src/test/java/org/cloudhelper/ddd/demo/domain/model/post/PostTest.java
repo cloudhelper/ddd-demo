@@ -20,8 +20,6 @@ import org.cloudhelper.ddd.demo.domain.service.contentfilter.PostTitleContentFil
 import org.cloudhelper.ddd.demo.infrastructure.exception.BusinessException;
 
 /**
- * @author DAOQIDELV
- * @CreateDate 2017年9月16日
  *
  */
 @RunWith(MockitoJUnitRunner.class)

@@ -14,8 +14,6 @@ import static org.junit.Assert.assertTrue;
 import static org.junit.Assert.fail;
 
 /**
- * @author DAOQIDELV
- * @CreateDate 2017年9月16日
  *
  */
 public class PostAuthorTest {

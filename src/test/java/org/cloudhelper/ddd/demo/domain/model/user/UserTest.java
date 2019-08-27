@@ -8,8 +8,6 @@ import org.junit.Test;
 
 /**
  *
- *
- * @createdate 2017年10月15日
  */
 public class UserTest {
 

@@ -1,6 +1,4 @@
-package org.cloudhelper.ddd.demo.infrastructure.repository.oracle.dao.oracle;
-
-import org.cloudhelper.ddd.demo.infrastructure.repository.oracle.dao.entity.oracle.PostEntity;
+package org.cloudhelper.ddd.demo.infrastructure.repository.mybatis.dao;
 
 /**
  * 帖子实体相关数据库操作接口

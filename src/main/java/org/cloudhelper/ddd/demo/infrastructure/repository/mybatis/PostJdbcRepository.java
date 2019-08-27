@@ -1,20 +1,20 @@
-package org.cloudhelper.ddd.demo.infrastructure.repository.oracle;
+package org.cloudhelper.ddd.demo.infrastructure.repository.mybatis;
 
-import org.cloudhelper.ddd.demo.infrastructure.repository.oracle.dao.oracle.PostMapper;
+import org.cloudhelper.ddd.demo.infrastructure.repository.mybatis.dao.PostMapper;
 import org.cloudhelper.ddd.demo.infrastructure.repository.translator.PostRepositoryTranslator;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 
 import org.cloudhelper.ddd.demo.domain.model.post.Post;
 import org.cloudhelper.ddd.demo.domain.repository.IPostRepository;
-import org.cloudhelper.ddd.demo.infrastructure.repository.oracle.dao.entity.oracle.PostEntity;
+import org.cloudhelper.ddd.demo.infrastructure.repository.mybatis.dao.PostEntity;
 
 /**
- * oracle 持久化 仓库
+ * mybatis 持久化 仓库
  *
  */
 @Repository
-public class PostOracleRepository implements IPostRepository {
+public class PostJdbcRepository implements IPostRepository {
 
 
 //	@Autowired
