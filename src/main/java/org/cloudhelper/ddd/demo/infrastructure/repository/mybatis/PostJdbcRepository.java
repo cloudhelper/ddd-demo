@@ -5,8 +5,8 @@ import org.cloudhelper.ddd.demo.infrastructure.repository.translator.PostReposit
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 
-import org.cloudhelper.ddd.demo.domain.model.post.Post;
-import org.cloudhelper.ddd.demo.domain.repository.IPostRepository;
+import org.cloudhelper.ddd.demo.application.domain.model.post.Post;
+import org.cloudhelper.ddd.demo.application.domain.repository.IPostRepository;
 import org.cloudhelper.ddd.demo.infrastructure.repository.mybatis.dao.PostEntity;
 
 /**

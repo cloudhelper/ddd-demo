@@ -19,7 +19,7 @@ import org.springframework.web.servlet.ModelAndView;
 import org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver;
 import org.springframework.web.servlet.view.json.MappingJackson2JsonView;
 
-import org.cloudhelper.ddd.demo.input.ui.constant.ReturnCode;
+import org.cloudhelper.ddd.demo.ui.web.constant.ReturnCode;
 
 /**
  * validation exception resovler

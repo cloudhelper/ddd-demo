@@ -4,9 +4,9 @@ import org.cloudhelper.ddd.demo.infrastructure.util.ApplicationUtil;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
-import org.cloudhelper.ddd.demo.domain.model.post.Post;
-import org.cloudhelper.ddd.demo.input.ui.dto.post.PostingRespBody;
-import org.cloudhelper.ddd.demo.input.ui.dto.post.QueryPostDetailRespBody;
+import org.cloudhelper.ddd.demo.application.domain.model.post.Post;
+import org.cloudhelper.ddd.demo.ui.web.dto.post.PostingRespBody;
+import org.cloudhelper.ddd.demo.ui.web.dto.post.QueryPostDetailRespBody;
 
 /**
  * Post模块的组装器，完成domain model对象到dto的转换，组装职责包括：

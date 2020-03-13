@@ -11,7 +11,7 @@ import org.springframework.context.ApplicationContext;
 import org.springframework.context.ApplicationContextAware;
 import org.springframework.stereotype.Component;
 
-import org.cloudhelper.ddd.demo.input.ui.constant.ReturnCode;
+import org.cloudhelper.ddd.demo.ui.web.constant.ReturnCode;
 
 /**
  * 应用相关工具类

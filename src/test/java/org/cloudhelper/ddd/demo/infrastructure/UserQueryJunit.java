@@ -1,6 +1,6 @@
 package org.cloudhelper.ddd.demo.infrastructure;
 
-import org.cloudhelper.ddd.demo.domain.model.user.User;
+import org.cloudhelper.ddd.demo.application.domain.model.user.User;
 import org.cloudhelper.ddd.demo.infrastructure.temp.UserQueryDubboService;
 import org.junit.Before;
 import org.junit.Test;

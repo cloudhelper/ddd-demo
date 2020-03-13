@@ -1,21 +1,21 @@
 package org.cloudhelper.ddd.demo.application.service;
 
 import org.cloudhelper.ddd.demo.application.assembler.PostAssembler;
-import org.cloudhelper.ddd.demo.domain.repository.IPostRepository;
+import org.cloudhelper.ddd.demo.application.domain.repository.IPostRepository;
 import org.cloudhelper.ddd.demo.infrastructure.exception.BusinessException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import org.cloudhelper.ddd.demo.domain.model.post.Post;
-import org.cloudhelper.ddd.demo.domain.model.user.PostAuthor;
-import org.cloudhelper.ddd.demo.domain.model.user.PostReader;
-import org.cloudhelper.ddd.demo.input.ui.dto.base.RequestDto;
-import org.cloudhelper.ddd.demo.input.ui.dto.post.DeletePostReqBody;
-import org.cloudhelper.ddd.demo.input.ui.dto.post.DeletePostRespBody;
-import org.cloudhelper.ddd.demo.input.ui.dto.post.PostingReqBody;
-import org.cloudhelper.ddd.demo.input.ui.dto.post.PostingRespBody;
-import org.cloudhelper.ddd.demo.input.ui.dto.post.QueryPostDetailReqBody;
-import org.cloudhelper.ddd.demo.input.ui.dto.post.QueryPostDetailRespBody;
+import org.cloudhelper.ddd.demo.application.domain.model.post.Post;
+import org.cloudhelper.ddd.demo.application.domain.model.user.PostAuthor;
+import org.cloudhelper.ddd.demo.application.domain.model.user.PostReader;
+import org.cloudhelper.ddd.demo.ui.web.dto.base.RequestDto;
+import org.cloudhelper.ddd.demo.ui.web.dto.post.DeletePostReqBody;
+import org.cloudhelper.ddd.demo.ui.web.dto.post.DeletePostRespBody;
+import org.cloudhelper.ddd.demo.ui.web.dto.post.PostingReqBody;
+import org.cloudhelper.ddd.demo.ui.web.dto.post.PostingRespBody;
+import org.cloudhelper.ddd.demo.ui.web.dto.post.QueryPostDetailReqBody;
+import org.cloudhelper.ddd.demo.ui.web.dto.post.QueryPostDetailRespBody;
 /**
  *
  *

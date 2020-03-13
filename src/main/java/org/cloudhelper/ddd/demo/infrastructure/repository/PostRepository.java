@@ -1,10 +1,9 @@
 package org.cloudhelper.ddd.demo.infrastructure.repository;
 
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 
-import org.cloudhelper.ddd.demo.domain.model.post.Post;
-import org.cloudhelper.ddd.demo.domain.repository.IPostRepository;
+import org.cloudhelper.ddd.demo.application.domain.model.post.Post;
+import org.cloudhelper.ddd.demo.application.domain.repository.IPostRepository;
 /**
  * 帖子仓库实现类
  *

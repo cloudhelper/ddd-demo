@@ -2,8 +2,8 @@ package org.cloudhelper.ddd.demo.infrastructure.repository.translator;
 
 import org.springframework.stereotype.Component;
 
-import org.cloudhelper.ddd.demo.domain.model.post.Post;
-import org.cloudhelper.ddd.demo.domain.model.post.PostStatus;
+import org.cloudhelper.ddd.demo.application.domain.model.post.Post;
+import org.cloudhelper.ddd.demo.application.domain.model.post.PostStatus;
 import org.cloudhelper.ddd.demo.infrastructure.repository.mybatis.dao.PostEntity;
 
 /**

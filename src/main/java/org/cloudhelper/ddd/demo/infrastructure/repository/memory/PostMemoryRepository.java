@@ -6,8 +6,8 @@ import java.util.concurrent.atomic.AtomicLong;
 
 import org.springframework.stereotype.Repository;
 
-import org.cloudhelper.ddd.demo.domain.model.post.Post;
-import org.cloudhelper.ddd.demo.domain.repository.IPostRepository;
+import org.cloudhelper.ddd.demo.application.domain.model.post.Post;
+import org.cloudhelper.ddd.demo.application.domain.repository.IPostRepository;
 
 /**
  * 内存仓库

@@ -9,7 +9,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.dao.DataAccessException;
 import org.springframework.stereotype.Component;
 
-import org.cloudhelper.ddd.demo.input.ui.constant.ReturnCode;
+import org.cloudhelper.ddd.demo.ui.web.constant.ReturnCode;
 import org.cloudhelper.ddd.demo.infrastructure.util.ApplicationUtil;
 
 /**
